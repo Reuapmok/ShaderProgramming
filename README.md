@@ -1,9 +1,6 @@
 # ShaderProgramming
 
-## How To Setup
-
 ## Controls 
-Nummern um die einzelnen Projekte anzeigen zu lassen:
 - 1 : Marching Cubes Geometrie mit Displacement Mapping
 - 2 : Particle System
 - 3 : Soft Shadows
