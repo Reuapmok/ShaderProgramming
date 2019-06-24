@@ -15,8 +15,8 @@ Nummern um die einzelnen Projekte anzeigen zu lassen:
 - Q und E generieren neue Geometrieschritte im MarchingCubes
 - R und T regeln wie weich der Soft Shadow sein soll
 - M Togglet wireframe für das Tesselierungs Beispiel
-- F Erhöht den inneren Layer der Tesselierung
-- G erhöht den outer Layer der Tesselierung
+- I Erhöht den inneren Layer der Tesselierung
+- O erhöht den outer Layer der Tesselierung
 
 
 ## Marching Cubes
