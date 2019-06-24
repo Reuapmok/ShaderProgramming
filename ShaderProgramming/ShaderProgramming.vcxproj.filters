@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien\Particles">
+      <UniqueIdentifier>{0f7f105b-39f5-4d5d-963f-513d4cec361d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Schadow">
+      <UniqueIdentifier>{75a9234b-6ff7-4238-83a6-3528a56183b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Tesselation">
+      <UniqueIdentifier>{125fa5ed-efa8-44f6-9f0d-068379437364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\OnScreenText">
+      <UniqueIdentifier>{879af272-9335-4277-a2f0-e576fc9f2a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\MarchingCubes">
+      <UniqueIdentifier>{3a89de6e-3bca-4346-a2e4-d9f9ea5c1498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_addFile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ToDo.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Quelle.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tables.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ps_render.frag">
+      <Filter>Ressourcendateien\Particles</Filter>
+    </None>
+    <None Include="ps_render.geom">
+      <Filter>Ressourcendateien\Particles</Filter>
+    </None>
+    <None Include="ps_render.vert">
+      <Filter>Ressourcendateien\Particles</Filter>
+    </None>
+    <None Include="ps_update.geom">
+      <Filter>Ressourcendateien\Particles</Filter>
+    </None>
+    <None Include="ps_update.vert">
+      <Filter>Ressourcendateien\Particles</Filter>
+    </None>
+    <None Include="shadow_mapping.frag">
+      <Filter>Ressourcendateien\Schadow</Filter>
+    </None>
+    <None Include="shadow_mapping.vert">
+      <Filter>Ressourcendateien\Schadow</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.frag">
+      <Filter>Ressourcendateien\Schadow</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.vert">
+      <Filter>Ressourcendateien\Schadow</Filter>
+    </None>
+    <None Include="tesselationControlShader.tesc">
+      <Filter>Ressourcendateien\Tesselation</Filter>
+    </None>
+    <None Include="tesselationEvaluationShader.tese">
+      <Filter>Ressourcendateien\Tesselation</Filter>
+    </None>
+    <None Include="tesselationFragmentShader.frag">
+      <Filter>Ressourcendateien\Tesselation</Filter>
+    </None>
+    <None Include="tesselationGeometryShader.geom">
+      <Filter>Ressourcendateien\Tesselation</Filter>
+    </None>
+    <None Include="tesselationVertexShader.vert">
+      <Filter>Ressourcendateien\Tesselation</Filter>
+    </None>
+    <None Include="blurDepth.frag">
+      <Filter>Ressourcendateien\Schadow</Filter>
+    </None>
+    <None Include="blurDepth.vert">
+      <Filter>Ressourcendateien\Schadow</Filter>
+    </None>
+    <None Include="text.vert">
+      <Filter>Ressourcendateien\OnScreenText</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>Ressourcendateien\OnScreenText</Filter>
+    </None>
+    <None Include="noise.frag">
+      <Filter>Ressourcendateien\MarchingCubes</Filter>
+    </None>
+    <None Include="noise.vert">
+      <Filter>Ressourcendateien\MarchingCubes</Filter>
+    </None>
+    <None Include="marchingCubes.frag">
+      <Filter>Ressourcendateien\MarchingCubes</Filter>
+    </None>
+    <None Include="marchingCubes.geom">
+      <Filter>Ressourcendateien\MarchingCubes</Filter>
+    </None>
+    <None Include="marchingCubes.vert">
+      <Filter>Ressourcendateien\MarchingCubes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
